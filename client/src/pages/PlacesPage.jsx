@@ -3,6 +3,7 @@ import { useState } from "react";
 import axios from "axios"
 import Perks from "../Perks";
 
+
 export default function PlacesPage() {
     const { action } = useParams();
     const [title, setTitle] = useState('');
